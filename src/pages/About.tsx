@@ -15,7 +15,7 @@ const About = () => {
   const education = [
     {
       degree: "NavGurukul – School of Business",
-      school: "NavGurukul",
+      school: "NavGurukul Foundation for Social Welfare",
       period: "Present",
       status: "Currently Pursuing",
       description: "Currently studying at NavGurukul, where I am learning modern business and creative skills. My learning includes communication, teamwork, problem-solving, CRM, G-Suite, digital marketing, data analytics, and basic coding (HTML, CSS, JavaScript)."
