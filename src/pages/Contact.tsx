@@ -2,6 +2,9 @@ import React, { useState } from 'react';
 import { Button } from '@/components/ui/button';
 import { Input } from '@/components/ui/input';
 import { Textarea } from '@/components/ui/textarea';
+import { useToast } from '@/hooks/use-toast';
+import { supabase } from '@/integrations/supabase/client';
+import { z } from 'zod';
 import { 
   Mail, 
   Phone, 
@@ -14,7 +17,27 @@ import {
   CheckCircle
 } from 'lucide-react';
 
+const contactSchema = z.object({
+  name: z.string()
+    .trim()
+    .min(1, { message: "Name is required" })
+    .max(100, { message: "Name must be less than 100 characters" }),
+  email: z.string()
+    .trim()
+    .email({ message: "Please enter a valid email" })
+    .max(255, { message: "Email must be less than 255 characters" }),
+  subject: z.string()
+    .trim()
+    .min(1, { message: "Subject is required" })
+    .max(200, { message: "Subject must be less than 200 characters" }),
+  message: z.string()
+    .trim()
+    .min(1, { message: "Message is required" })
+    .max(2000, { message: "Message must be less than 2000 characters" })
+});
+
 const Contact = () => {
+  const { toast } = useToast();
   const [formData, setFormData] = useState({
     name: '',
     email: '',
@@ -22,6 +45,7 @@ const Contact = () => {
     message: ''
   });
   const [isSubmitted, setIsSubmitted] = useState(false);
+  const [isSubmitting, setIsSubmitting] = useState(false);
 
   const handleInputChange = (e) => {
     setFormData({
@@ -30,11 +54,49 @@ const Contact = () => {
     });
   };
 
-  const handleSubmit = (e) => {
+  const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
-    // Here you would typically handle the form submission
-    setIsSubmitted(true);
-    setTimeout(() => setIsSubmitted(false), 3000);
+    
+    // Validate form data
+    try {
+      const validatedData = contactSchema.parse(formData);
+      setIsSubmitting(true);
+
+      // Call the edge function to send email
+      const { data, error } = await supabase.functions.invoke('send-contact-email', {
+        body: validatedData
+      });
+
+      if (error) throw error;
+
+      // Reset form and show success
+      setFormData({ name: '', email: '', subject: '', message: '' });
+      setIsSubmitted(true);
+      toast({
+        title: "Message sent!",
+        description: "Thank you for reaching out. I'll get back to you soon!",
+      });
+      
+      setTimeout(() => setIsSubmitted(false), 3000);
+    } catch (error) {
+      if (error instanceof z.ZodError) {
+        // Show validation errors
+        toast({
+          title: "Please check your input",
+          description: error.errors[0].message,
+          variant: "destructive",
+        });
+      } else {
+        console.error('Error sending message:', error);
+        toast({
+          title: "Failed to send message",
+          description: "Please try again or contact me directly via email.",
+          variant: "destructive",
+        });
+      }
+    } finally {
+      setIsSubmitting(false);
+    }
   };
 
   const contactInfo = [
@@ -177,9 +239,10 @@ const Contact = () => {
                 <Button 
                   type="submit" 
                   size="lg" 
-                  className="w-full bg-gradient-primary hover:opacity-90 shadow-accent"
+                  disabled={isSubmitting}
+                  className="w-full bg-gradient-primary hover:opacity-90 shadow-accent disabled:opacity-50"
                 >
-                  Send Message <Send className="ml-2 w-4 h-4" />
+                  {isSubmitting ? 'Sending...' : 'Send Message'} <Send className="ml-2 w-4 h-4" />
                 </Button>
               </form>
             )}
