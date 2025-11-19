@@ -68,8 +68,8 @@ const About = () => {
             About <span className="gradient-text">Me</span>
           </h1>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto leading-relaxed">
-            A passionate business student with a unique blend of analytical thinking and creative vision,
-            constantly seeking opportunities to innovate and make a meaningful impact.
+            A School of Business student at NavGurukul, combining business strategy with technical 
+            skills to create practical digital solutions.
           </p>
         </div>
 
@@ -79,21 +79,20 @@ const About = () => {
             <h2 className="text-3xl font-poppins font-bold mb-6 gradient-text-accent">My Journey</h2>
             <div className="prose prose-lg max-w-none text-muted-foreground leading-relaxed space-y-4">
               <p>
-                I'm currently pursuing my B.Sc. in Business, where I'm exploring the fascinating intersection 
-                of traditional business principles and modern creative solutions. My academic journey began at 
-                DAV Mukhyamantri Public School in Bhopalpatnam, where I developed a strong foundation in 
-                analytical thinking and problem-solving.
+                I'm currently studying at NavGurukul's School of Business, where I'm developing essential 
+                business and technical skills through hands-on learning. My coursework focuses on modern 
+                business practices including professional communication, CRM systems, G-Suite tools, 
+                digital marketing, and data analytics.
               </p>
               <p>
-                What sets me apart is my passion for blending business acumen with creativity. Whether it's 
-                designing intuitive spreadsheet solutions, creating compelling visual content, or conceptualizing 
-                interior spaces, I believe that creativity and business strategy go hand in hand.
+                Beyond business fundamentals, I'm building technical expertise in web development with 
+                HTML, CSS, and JavaScript. I also bring creative experience from my background in interior 
+                design, which helps me approach problems with both analytical thinking and creative solutions.
               </p>
               <p>
-                My experience as an Accounting Assistant at Ganesh Restaurant taught me the importance of 
-                attention to detail, efficient processes, and excellent customer service. This real-world 
-                experience has shaped my understanding of how businesses operate and the critical role of 
-                accurate financial management.
+                I'm passionate about learning new tools and creating practical solutions that combine 
+                business strategy with technical skills. My goal is to bridge the gap between business 
+                needs and digital innovation.
               </p>
             </div>
           </div>
