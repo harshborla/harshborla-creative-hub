@@ -78,7 +78,7 @@ const Home = () => {
               </div>
 
               <p className="text-lg lg:text-xl text-muted-foreground max-w-2xl mx-auto lg:mx-0 leading-relaxed font-light">
-                I'm currently learning at the School of Business, where I focus on real-world business skills like communication, leadership, problem-solving, marketing basics, and practical decision-making. I enjoy applying these skills to projects that help me grow personally and professionally.
+                I am a student learning business skills and creative work. I enjoy working on projects that help me learn and grow. I combine business knowledge with creative ideas to solve problems.
               </p>
 
               <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">

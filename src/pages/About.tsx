@@ -7,7 +7,7 @@ const About = () => {
       title: "Accounting Assistant (Part-time)",
       company: "Raipur, Chhattisgarh, India",
       period: "2023-2024",
-      description: "Managed daily accounting tasks such as record-keeping, cash handling, and financial entries. Gained practical knowledge of financial management and small business operations.",
+      description: "I handled daily accounting work like keeping records, managing cash, and making financial entries. I learned about managing money and how small businesses work.",
       skills: ["Financial Management", "Record-Keeping", "Cash Handling", "Business Operations"]
     }
   ];
@@ -18,21 +18,21 @@ const About = () => {
       school: "NavGurukul Foundation for Social Welfare",
       period: "Present",
       status: "Currently Pursuing",
-      description: "Currently studying at NavGurukul, where I am learning modern business and creative skills. My learning includes communication, teamwork, problem-solving, CRM, G-Suite, digital marketing, data analytics, and basic coding (HTML, CSS, JavaScript)."
+      description: "I am studying at NavGurukul and learning business and creative skills. I learn about communication, teamwork, solving problems, CRM, Google tools, digital marketing, working with data, and basic website coding (HTML, CSS, JavaScript)."
     },
     {
       degree: "B.Sc Science",
       school: "Govt. Indrawati College, Bhopalpatnam, Chhattisgarh",
       period: "Present",
       status: "Currently Pursuing",
-      description: "I am also pursuing a Bachelor of Science, which helps me build analytical thinking and a strong academic foundation."
+      description: "I am also studying for a Bachelor of Science degree, which helps me think clearly and build a strong base for my education."
     },
     {
       degree: "CAD Academy – Interior Design",
       school: "CAD Academy",
       period: "Completed",
       status: "Completed",
-      description: "I completed an Interior Design program at CAD Academy, where I learned creative design concepts, planning, and visual presentation skills."
+      description: "I completed an Interior Design program at CAD Academy. I learned how to design spaces, plan layouts, and present visual ideas."
     },
     {
       degree: "Higher Secondary (12th – Science, Biology)",
@@ -54,17 +54,17 @@ const About = () => {
     {
       icon: <Target className="w-6 h-6" />,
       title: "Goal-Oriented",
-      description: "Always focused on achieving objectives with clear strategic planning."
+      description: "I always focus on reaching my goals with clear plans."
     },
     {
       icon: <Lightbulb className="w-6 h-6" />,
       title: "Creative Thinking",
-      description: "Bringing innovative solutions to traditional business challenges."
+      description: "I bring new ideas to solve everyday business problems."
     },
     {
       icon: <Users className="w-6 h-6" />,
       title: "Collaborative",
-      description: "Thriving in team environments and building meaningful connections."
+      description: "I enjoy working in teams and building good connections."
     }
   ];
 
@@ -82,7 +82,7 @@ const About = () => {
             About <span className="gradient-text">Me</span>
           </h1>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto leading-relaxed">
-            A driven student combining business education with hands-on experience in accounting and finance. I believe in continuous learning and practical application of knowledge to create meaningful impact.
+            I am a student who loves learning about business and working with numbers. I believe in learning by doing and using what I learn to help others.
           </p>
         </div>
 
@@ -92,13 +92,13 @@ const About = () => {
             <h2 className="text-3xl font-poppins font-bold mb-6 gradient-text-accent">My Journey</h2>
             <div className="prose prose-lg max-w-none text-muted-foreground leading-relaxed space-y-4">
               <p>
-                My path began with a strong foundation in the biological sciences, which taught me analytical thinking and attention to detail. This academic background, combined with hands-on accounting experience, has given me a unique perspective on business operations and financial management.
+                I started my education in science, which taught me how to think carefully and pay attention to small details. I also worked with accounting and learned about managing money and business operations.
               </p>
               <p>
-                At the School of Business, I'm expanding my skill set through practical training in G-Suite, CRM systems, digital marketing, and data analytics. Beyond traditional business courses, I've explored creative fields including interior design and web development, allowing me to bridge the gap between analytical and creative problem-solving.
+                At the School of Business, I am learning useful tools like Google Sheets, CRM, digital marketing, and working with data. I also learned about interior design and building websites, which helps me be creative while solving problems.
               </p>
               <p>
-                What drives me is the opportunity to merge different disciplines—bringing together scientific precision, financial acumen, and creative innovation to develop well-rounded business solutions. I'm constantly seeking ways to apply classroom theory to real-world challenges.
+                I enjoy bringing together different skills - using science thinking, money management, and creative ideas to find good solutions. I always try to use what I learn in real situations.
               </p>
             </div>
           </div>
