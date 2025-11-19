@@ -22,7 +22,7 @@ const About = () => {
     },
     {
       degree: "B.Sc Science",
-      school: "University",
+      school: "Govt. Indrawati College, Bhopalpatnam, Chhattisgarh",
       period: "Present",
       status: "Currently Pursuing",
       description: "I am also pursuing a Bachelor of Science, which helps me build analytical thinking and a strong academic foundation."
