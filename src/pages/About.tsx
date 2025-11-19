@@ -14,7 +14,7 @@ const About = () => {
 
   const education = [
     {
-      degree: "B.Sc. Biological Sciences",
+      degree: "B.Sc.",
       school: "School of Business (Business Training Program)",
       period: "2024-2026",
       status: "Currently Pursuing",
