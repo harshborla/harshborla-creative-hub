@@ -12,7 +12,43 @@ const About = () => {
     }
   ];
 
-  const education = [];
+  const education = [
+    {
+      degree: "NavGurukul – School of Business",
+      school: "NavGurukul",
+      period: "Present",
+      status: "Currently Pursuing",
+      description: "Currently studying at NavGurukul, where I am learning modern business and creative skills. My learning includes communication, teamwork, problem-solving, CRM, G-Suite, digital marketing, data analytics, and basic coding (HTML, CSS, JavaScript)."
+    },
+    {
+      degree: "B.Sc Science",
+      school: "University",
+      period: "Present",
+      status: "Currently Pursuing",
+      description: "I am also pursuing a Bachelor of Science, which helps me build analytical thinking and a strong academic foundation."
+    },
+    {
+      degree: "CAD Academy – Interior Design",
+      school: "CAD Academy",
+      period: "Completed",
+      status: "Completed",
+      description: "I completed an Interior Design program at CAD Academy, where I learned creative design concepts, planning, and visual presentation skills."
+    },
+    {
+      degree: "Higher Secondary (12th – Science, Biology)",
+      school: "DAV Mukhyamantri Public School, Ulloor, Bhopalpatnam",
+      period: "2023",
+      status: "Completed",
+      description: "I completed my 12th grade in the Science (Biology) stream, studying Physics, Chemistry, and Biology."
+    },
+    {
+      degree: "Secondary School (10th)",
+      school: "DAV Mukhyamantri Public School, Ulloor, Bhopalpatnam",
+      period: "2021",
+      status: "Completed",
+      description: "I completed my 10th grade with a strong focus on basic subjects and foundational learning."
+    }
+  ];
 
   const values = [
     {
