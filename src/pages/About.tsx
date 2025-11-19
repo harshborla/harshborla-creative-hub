@@ -12,22 +12,7 @@ const About = () => {
     }
   ];
 
-  const education = [
-    {
-      degree: "Class 12",
-      school: "DAV Mukhyamantri Public School, Ulloor, Bhopalpatnam",
-      period: "2023",
-      status: "Completed",
-      description: "Strong academic foundation with focus on commerce and business studies."
-    },
-    {
-      degree: "Class 10",
-      school: "DAV Mukhyamantri Public School, Ulloor, Bhopalpatnam", 
-      period: "2021",
-      status: "Completed",
-      description: "Comprehensive education with excellent academic performance."
-    }
-  ];
+  const education = [];
 
   const values = [
     {
