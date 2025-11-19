@@ -17,7 +17,7 @@ const Services = () => {
   const services = [
     {
       title: "Accounting & Business Support",
-      description: "Professional accounting assistance, bookkeeping, and business process optimization.",
+      description: "Help with accounting, keeping financial records, and improving business work.",
       icon: <Calculator className="w-8 h-8" />,
       features: [
         "Financial record management", 
@@ -29,7 +29,7 @@ const Services = () => {
     },
     {
       title: "Google Sheets Reporting & Automation",
-      description: "Advanced spreadsheet solutions, automated reporting, and data visualization.",
+      description: "Creating smart spreadsheets, automatic reports, and easy-to-read data displays.",
       icon: <FileSpreadsheet className="w-8 h-8" />,
       features: [
         "Custom dashboard creation",
@@ -41,7 +41,7 @@ const Services = () => {
     },
     {
       title: "Graphic Design (Canva)",
-      description: "Creative visual content for marketing, branding, and business communications.",
+      description: "Making creative designs for marketing, branding, and business needs.",
       icon: <Palette className="w-8 h-8" />,
       features: [
         "Social media graphics",
@@ -53,7 +53,7 @@ const Services = () => {
     },
     {
       title: "Video & Photo Editing",
-      description: "Professional editing services for promotional content and visual storytelling.",
+      description: "Editing videos and photos for promotions and telling stories through visuals.",
       icon: <Video className="w-8 h-8" />,
       features: [
         "Video editing and production",
@@ -65,7 +65,7 @@ const Services = () => {
     },
     {
       title: "Interior Design Concepts",
-      description: "Creative space planning and design concepts for residential and commercial spaces.",
+      description: "Planning and designing home and business spaces with creative ideas.",
       icon: <Home className="w-8 h-8" />,
       features: [
         "Space planning and layout",
@@ -77,7 +77,7 @@ const Services = () => {
     },
     {
       title: "AI Tools Utilization",
-      description: "Leveraging AI technologies to streamline business processes and enhance productivity.",
+      description: "Using AI tools to make business work easier and faster.",
       icon: <Brain className="w-8 h-8" />,
       features: [
         "AI tool integration",
@@ -89,7 +89,7 @@ const Services = () => {
     },
     {
       title: "Web Design (Frontend)",
-      description: "Modern, responsive web design and development for businesses and personal projects.",
+      description: "Building modern websites that work well on all devices for businesses and personal use.",
       icon: <Code className="w-8 h-8" />,
       features: [
         "Responsive web design",
@@ -115,8 +115,7 @@ const Services = () => {
             My <span className="gradient-text">Services</span>
           </h1>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto leading-relaxed">
-            Comprehensive solutions combining business expertise with creative innovation.
-            From accounting to design, I offer services that bridge the gap between analytical precision and creative excellence.
+            I offer different services that mix business knowledge, creative skills, and technical work to help you reach your goals.
           </p>
         </div>
 

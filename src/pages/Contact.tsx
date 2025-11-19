@@ -92,8 +92,8 @@ const Contact = () => {
             Get In <span className="gradient-text">Touch</span>
           </h1>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto leading-relaxed">
-            Ready to start your next project? I'd love to hear from you. 
-            Let's discuss how we can work together to bring your ideas to life.
+            Want to start a project? I would love to hear from you. 
+            Let's talk about how we can work together to make your ideas real.
           </p>
         </div>
 
@@ -105,7 +105,7 @@ const Contact = () => {
                 Send Me a <span className="gradient-text-accent">Message</span>
               </h2>
               <p className="text-muted-foreground">
-                Fill out the form below and I'll get back to you as soon as possible.
+                Fill out this form and I will reply to you soon.
               </p>
             </div>
 

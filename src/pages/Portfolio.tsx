@@ -20,7 +20,7 @@ const Portfolio = () => {
     {
       title: "Restaurant Financial Dashboard",
       category: "Business", 
-      description: "Comprehensive financial tracking and reporting system developed during my role as Accounting Assistant at Ganesh Restaurant. Features automated calculations and visual analytics.",
+      description: "A complete system to track money and create reports that I built while working as Accounting Assistant. It has automatic calculations and easy-to-read charts.",
       image: "/api/placeholder/400/300",
       technologies: ["Google Sheets", "Data Analysis", "Financial Management"],
       icon: <Calculator className="w-6 h-6" />,
@@ -29,7 +29,7 @@ const Portfolio = () => {
     {
       title: "Advanced Google Sheets Automation",
       category: "Spreadsheets",
-      description: "Custom automated reporting system with dynamic dashboards, formula-driven calculations, and real-time data visualization for business intelligence.",
+      description: "Automatic reporting system with live dashboards, smart calculations, and visual data display to help understand business information.",
       image: "/api/placeholder/400/300", 
       technologies: ["Google Sheets", "Automation", "Data Visualization"],
       icon: <FileSpreadsheet className="w-6 h-6" />,
@@ -38,7 +38,7 @@ const Portfolio = () => {
     {
       title: "Brand Identity Design Package",
       category: "Design",
-      description: "Complete visual identity solution including logo design, color palette, typography, and marketing materials created using Canva for a local business.",
+      description: "Full brand design including logo, colors, fonts, and marketing materials made using Canva for a local business.",
       image: "/api/placeholder/400/300",
       technologies: ["Canva", "Brand Design", "Visual Identity"],
       icon: <Palette className="w-6 h-6" />,
@@ -47,7 +47,7 @@ const Portfolio = () => {
     {
       title: "Modern Interior Design Concept",
       category: "Design", 
-      description: "Contemporary residential interior design concept featuring space optimization, modern aesthetics, and functional layouts for a 2BHK apartment.",
+      description: "Modern home interior design with smart use of space, beautiful looks, and practical layouts for a 2BHK apartment.",
       image: "/api/placeholder/400/300",
       technologies: ["Interior Design", "Space Planning", "3D Visualization"],
       icon: <Home className="w-6 h-6" />,
@@ -56,7 +56,7 @@ const Portfolio = () => {
     {
       title: "Promotional Video Campaign",
       category: "Design",
-      description: "Creative video editing project for social media marketing, including motion graphics, transitions, and engaging visual storytelling elements.",
+      description: "Creative video editing for social media with moving graphics, smooth transitions, and interesting visual stories.",
       image: "/api/placeholder/400/300",
       technologies: ["Video Editing", "Motion Graphics", "Social Media"],
       icon: <Video className="w-6 h-6" />,
@@ -65,7 +65,7 @@ const Portfolio = () => {
     {
       title: "Business Website Frontend",
       category: "Development",
-      description: "Responsive business website built with HTML, CSS, and JavaScript featuring modern design, smooth animations, and mobile optimization.",
+      description: "Business website built with HTML, CSS, and JavaScript that works on all devices with modern design and smooth animations.",
       image: "/api/placeholder/400/300",
       technologies: ["HTML", "CSS", "JavaScript", "Responsive Design"],
       icon: <ExternalLink className="w-6 h-6" />,
@@ -91,8 +91,7 @@ const Portfolio = () => {
             My <span className="gradient-text">Portfolio</span>
           </h1>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto leading-relaxed">
-            A showcase of my work spanning business solutions, creative design, and technical development.
-            Each project represents a unique blend of analytical thinking and creative innovation.
+            Here are some of my projects in business, design, and web development. Each project helped me learn something new.
           </p>
         </div>
 
