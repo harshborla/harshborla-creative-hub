@@ -4,21 +4,21 @@ import { GraduationCap, MapPin, Calendar, Users, Target, Lightbulb } from 'lucid
 const About = () => {
   const experiences = [
     {
-      title: "Accounting Assistant",
-      company: "Ganesh Restaurant",
+      title: "Accounting Assistant (Part-time)",
+      company: "Raipur, Chhattisgarh, India",
       period: "2023-2024",
-      description: "Managed financial records, assisted with bookkeeping, and gained hands-on experience in business operations.",
-      skills: ["Financial Management", "Data Entry", "Customer Service", "Problem Solving"]
+      description: "Managed daily accounting tasks such as record-keeping, cash handling, and financial entries. Gained practical knowledge of financial management and small business operations.",
+      skills: ["Financial Management", "Record-Keeping", "Cash Handling", "Business Operations"]
     }
   ];
 
   const education = [
     {
-      degree: "B.Sc. Business",
-      school: "School of Business",
+      degree: "B.Sc. Biological Sciences",
+      school: "School of Business (Business Training Program)",
       period: "2024-2026",
       status: "Currently Pursuing",
-      description: "Focusing on business fundamentals, management principles, and entrepreneurship."
+      description: "Combining biological sciences education with practical business training, focusing on communication, leadership, problem-solving, and marketing fundamentals."
     },
     {
       degree: "Class 12",
@@ -68,7 +68,7 @@ const About = () => {
             About <span className="gradient-text">Me</span>
           </h1>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto leading-relaxed">
-            I'm currently learning at the School of Business, where I focus on real-world business skills like communication, leadership, problem-solving, marketing basics, and practical decision-making. I enjoy applying these skills to projects that help me grow personally and professionally.
+            A driven student combining business education with hands-on experience in accounting and finance. I believe in continuous learning and practical application of knowledge to create meaningful impact.
           </p>
         </div>
 
@@ -78,10 +78,13 @@ const About = () => {
             <h2 className="text-3xl font-poppins font-bold mb-6 gradient-text-accent">My Journey</h2>
             <div className="prose prose-lg max-w-none text-muted-foreground leading-relaxed space-y-4">
               <p>
-                I am a School of Business student at NavGurukul, where I am learning modern business skills focused on communication, teamwork, problem-solving, and real-world projects. My learning includes G-Suite, CRM, digital marketing, data analytics, and professional communication.
+                My path began with a strong foundation in the biological sciences, which taught me analytical thinking and attention to detail. This academic background, combined with hands-on accounting experience, has given me a unique perspective on business operations and financial management.
               </p>
               <p>
-                I also work on creative and technical skills like HTML, CSS, and basic JavaScript, and I have experience in interior design from CAD Academy. I enjoy learning new tools, improving my communication, and building practical solutions that combine business understanding with creativity.
+                At the School of Business, I'm expanding my skill set through practical training in G-Suite, CRM systems, digital marketing, and data analytics. Beyond traditional business courses, I've explored creative fields including interior design and web development, allowing me to bridge the gap between analytical and creative problem-solving.
+              </p>
+              <p>
+                What drives me is the opportunity to merge different disciplines—bringing together scientific precision, financial acumen, and creative innovation to develop well-rounded business solutions. I'm constantly seeking ways to apply classroom theory to real-world challenges.
               </p>
             </div>
           </div>
