@@ -68,8 +68,7 @@ const About = () => {
             About <span className="gradient-text">Me</span>
           </h1>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto leading-relaxed">
-            A School of Business student at NavGurukul, combining business strategy with technical 
-            skills to create practical digital solutions.
+            I'm currently learning at the School of Business, where I focus on real-world business skills like communication, leadership, problem-solving, marketing basics, and practical decision-making. I enjoy applying these skills to projects that help me grow personally and professionally.
           </p>
         </div>
 
