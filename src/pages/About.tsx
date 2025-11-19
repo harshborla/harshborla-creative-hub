@@ -79,20 +79,10 @@ const About = () => {
             <h2 className="text-3xl font-poppins font-bold mb-6 gradient-text-accent">My Journey</h2>
             <div className="prose prose-lg max-w-none text-muted-foreground leading-relaxed space-y-4">
               <p>
-                I'm currently studying at NavGurukul's School of Business, where I'm developing essential 
-                business and technical skills through hands-on learning. My coursework focuses on modern 
-                business practices including professional communication, CRM systems, G-Suite tools, 
-                digital marketing, and data analytics.
+                I am a School of Business student at NavGurukul, where I am learning modern business skills focused on communication, teamwork, problem-solving, and real-world projects. My learning includes G-Suite, CRM, digital marketing, data analytics, and professional communication.
               </p>
               <p>
-                Beyond business fundamentals, I'm building technical expertise in web development with 
-                HTML, CSS, and JavaScript. I also bring creative experience from my background in interior 
-                design, which helps me approach problems with both analytical thinking and creative solutions.
-              </p>
-              <p>
-                I'm passionate about learning new tools and creating practical solutions that combine 
-                business strategy with technical skills. My goal is to bridge the gap between business 
-                needs and digital innovation.
+                I also work on creative and technical skills like HTML, CSS, and basic JavaScript, and I have experience in interior design from CAD Academy. I enjoy learning new tools, improving my communication, and building practical solutions that combine business understanding with creativity.
               </p>
             </div>
           </div>
