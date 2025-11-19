@@ -45,10 +45,10 @@ const handler = async (req: Request): Promise<Response> => {
 
     console.log("Sending contact email from:", email, "Name:", name);
 
-    // Send email to you (the portfolio owner)
+    // Send notification email to you with contact details
     const emailToYou = await resend.emails.send({
       from: "Portfolio Contact <onboarding@resend.dev>",
-      to: ["harshborla064@gmail.com"],
+      to: ["harshborla24@navgurukul.org"],
       subject: `New Contact Form: ${subject}`,
       html: `
         <h2>New Contact Form Message</h2>
@@ -57,27 +57,12 @@ const handler = async (req: Request): Promise<Response> => {
         <p><strong>Subject:</strong> ${subject}</p>
         <h3>Message:</h3>
         <p>${message.replace(/\n/g, '<br>')}</p>
+        <hr>
+        <p><em>Note: Once you verify your domain at resend.com/domains, you can send confirmation emails to your visitors automatically.</em></p>
       `,
     });
 
-    console.log("Email sent to portfolio owner:", emailToYou);
-
-    // Send confirmation email to the sender
-    const confirmationEmail = await resend.emails.send({
-      from: "Harsh Borla <onboarding@resend.dev>",
-      to: [email],
-      subject: "Thank you for reaching out!",
-      html: `
-        <h1>Thank you for your message, ${name}!</h1>
-        <p>I have received your message and will get back to you soon.</p>
-        <p><strong>Your message:</strong></p>
-        <p>${message.replace(/\n/g, '<br>')}</p>
-        <br>
-        <p>Best regards,<br>Harsh Borla</p>
-      `,
-    });
-
-    console.log("Confirmation email sent to sender:", confirmationEmail);
+    console.log("Email notification sent successfully:", emailToYou);
 
     return new Response(
       JSON.stringify({ success: true, message: "Email sent successfully" }),
