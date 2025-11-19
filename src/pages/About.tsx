@@ -14,13 +14,6 @@ const About = () => {
 
   const education = [
     {
-      degree: "B.Sc.",
-      school: "School of Business (Business Training Program)",
-      period: "2024-2026",
-      status: "Currently Pursuing",
-      description: "Combining biological sciences education with practical business training, focusing on communication, leadership, problem-solving, and marketing fundamentals."
-    },
-    {
       degree: "Class 12",
       school: "DAV Mukhyamantri Public School, Ulloor, Bhopalpatnam",
       period: "2023",
